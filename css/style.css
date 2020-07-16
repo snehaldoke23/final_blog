@@ -651,23 +651,147 @@ padding: 7px;
      BLOG CSS
 ===========================*/
 
-.row-box{
-  border: 1px solid gray;
-  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
-  text-decoration-color: black;
-}
-.auth-name{
-  color: black;
-}
-.auth-read-more{
-  color: gray;
-}
-.single-box:hover{
-  color: orange;
-}
-.blog-color{
+.single-blog .blog-image 
+      img{border-top-left-radius:10px;border-top-right-radius:10px;width:100%}
+    .single-blog .blog-content{
+      padding:0 25px 25px;
+      margin-top:-22px;
+      position:relative;border:1px;
+      border:2px solid rgba(100,111,135,.2);
+      border-bottom-left-radius:10px;
+      border-bottom-right-radius:10px;border-top:0}
+    .single-blog .blog-content .blog-meta .author{
+      width:35px;height:100px;
+      border-radius:50%;
+      padding:2px;
+      background-color:#fff;
+      overflow:hidden}
+    .single-blog .blog-content .blog-meta .author img{
+        border-radius:50%}
+    .single-blog .blog-content .blog-meta .blog-list{
+      margin-top:10px}
+    .single-blog .blog-content .blog-meta .blog-list li{
+      display:inline-block;margin-left:50px}
+    .single-blog .blog-content .blog-meta .blog-list li:first-child{
+      margin-left:0}
+    .single-blog .blog-content .blog-meta .blog-list li a{
+      font-size:14px;
+      color:#646f87;
+      -webkit-transition:all .3s ease-out 0s;
+      -moz-transition:all .3s ease-out 0s;
+      -ms-transition:all .3s ease-out 0s;
+      -o-transition:all .3s ease-out 0s;
+      transition:all .3s ease-out 0s}
+    .single-blog .blog-content .blog-meta .blog-list li a:hover{
+        color:#fe8464}
+    .single-blog .blog-content .blog-text .blog-title a{
+          font-size:22px;
+          color:#293651;
+          font-weight:600;
+          margin-top:25px;
+          -webkit-transition:all .3s ease-out 0s;
+          -moz-transition:all .3s ease-out 0s;
+          -ms-transition:all .3s ease-out 0s;
+          -o-transition:all .3s ease-out 0s;
+          transition:all .3s ease-out 0s}
+          @media(max-width:767px){
+            .single-blog .blog-content .blog-text .blog-title a{
+              font-size:18px}}
+          @media only screen and (min-width:576px) and (max-width:767px){
+            .single-blog .blog-content .blog-text .blog-title a{
+              font-size:22px}}
+            .single-blog .blog-content .blog-text .blog-title a:hover{
+              color:#fe8464}
+            .single-blog .blog-content .blog-text .text{
+              margin-top:20px}
+            .single-blog .blog-content .blog-text .more{
+              font-size:16px;
+              font-weight:600;
+              color:#646f87;
+              margin-top:20px;
+              -webkit-transition:all .3s ease-out 0s;
+              -moz-transition:all .3s ease-out 0s;
+              -ms-transition:all .3s ease-out 0s;
+              -o-transition:all .3s ease-out 0s;
+              transition:all .3s ease-out 0s}
+            .single-blog .blog-content .blog-text .more .line-1{
+              width:0;
+              height:2px;
+              background-color:#fe8464;
+              -webkit-transition:all .3s ease-out 0s;
+              -moz-transition:all .3s ease-out 0s;
+              -ms-transition:all .3s ease-out 0s;
+              -o-transition:all .3s ease-out 0s;
+              transition:all .3s ease-out 0s;
+              margin-bottom:5px}
+            .single-blog .blog-content .blog-text .more .line-2{
+              width:20px;
+              height:2px;
+              background-color:#646f87;
+              margin-right:10px;
+              -webkit-transition:all .3s ease-out 0s;
+              -moz-transition:all .3s ease-out 0s;
+              -ms-transition:all .3s ease-out 0s;
+              -o-transition:all .3s ease-out 0s;
+              transition:all .3s ease-out 0s;
+              margin-left:10px;
+              margin-bottom:5px}
+              .single-blog .blog-content .blog-text .more:hover{
+                color:#fe8464}
+              .single-blog .blog-content .blog-text .more:hover .line-1{
+                width:20px;margin-right:10px}
+              .single-blog .blog-content .blog-text .more:hover .line-2{
+                width:0;margin-left:10px;
+              }
+.sub-title{
   color:orange;
 }
+
+.blog-title{
+  margin-top: 25px;
+  
+}
+.title-color{
+  color: black;
+}
+.btn-blog-bg {
+    border: 1px solid #eee;
+    border-top-color: rgb(238, 238, 238);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(238, 238, 238);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(238, 238, 238);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(238, 238, 238);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    color: #333;
+    font-size: 14px;
+    padding: 10px 30px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    transition: all .2s ease 0s;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
 
 
 
