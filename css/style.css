@@ -684,9 +684,19 @@ padding: 7px;
       transition:all .3s ease-out 0s}
     .single-blog .blog-content .blog-meta .blog-list li a:hover{
         color:#fe8464}
-    .single-blog .blog-content .blog-text .blog-title a{
+    .single-blog .blog-content .blog-text a{
           font-size:22px;
-          color:#293651;
+          color:#14171c;
+          font-weight:600;
+          margin-top:25px;
+          -webkit-transition:all .3s ease-out 0s;
+          -moz-transition:all .3s ease-out 0s;
+          -ms-transition:all .3s ease-out 0s;
+          -o-transition:all .3s ease-out 0s;
+          transition:all .3s ease-out 0s}
+          .blog-title a{
+          font-size:22px;
+          color:#14171c;
           font-weight:600;
           margin-top:25px;
           -webkit-transition:all .3s ease-out 0s;
@@ -695,12 +705,18 @@ padding: 7px;
           -o-transition:all .3s ease-out 0s;
           transition:all .3s ease-out 0s}
           @media(max-width:767px){
-            .single-blog .blog-content .blog-text .blog-title a{
+            .single-blog .blog-content .blog-texta{
+              font-size:18px}
+            .blog-title a{
               font-size:18px}}
           @media only screen and (min-width:576px) and (max-width:767px){
-            .single-blog .blog-content .blog-text .blog-title a{
+            .single-blog .blog-content .blog-text a{
+              font-size:22px}
+            .blog-title a{
               font-size:22px}}
-            .single-blog .blog-content .blog-text .blog-title a:hover{
+            .single-blog .blog-content .blog-text a:hover{
+              color:#fe8464}
+              .blog-title a:hover{
               color:#fe8464}
             .single-blog .blog-content .blog-text .text{
               margin-top:20px}
@@ -743,17 +759,8 @@ padding: 7px;
               .single-blog .blog-content .blog-text .more:hover .line-2{
                 width:0;margin-left:10px;
               }
-.sub-title{
-  color:orange;
-}
 
-.blog-title{
-  margin-top: 25px;
-  
-}
-.title-color{
-  color: black;
-}
+
 .btn-blog-bg {
     border: 1px solid #eee;
     border-top-color: rgb(238, 238, 238);
@@ -791,10 +798,6 @@ padding: 7px;
     transition-timing-function: ease;
     transition-delay: 0s;
 }
-
-
-
-
 /*===========================
        11.FOOTER  css 
 ===========================*/
